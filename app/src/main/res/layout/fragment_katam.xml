@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="id.ac.polinema.deteksipadiapp.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/logogreen"
+    android:gravity="center_horizontal">>
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="16dp"
+        >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/musik_bts"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/logoblack"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/katamtext"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/legenda_katam"
+        android:text="@string/bio_bts"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kalender"
+        android:text="@string/bio_bts"
+        android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n\n"></TextView>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.ac.polinema.deteksipadiapp.kotlin.ClassificationHSV">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Detection Thresholding"
+        android:textColor="@color/logoblack"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/displayImageViewKt"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/display"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+
+        android:id="@+id/detectColorButtonKt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/tittlegalery6"
+        android:textAlignment="center"
+        android:textColor="@color/logoblack"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:theme="@style/buttonstyle1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayImageViewKt" />
+
+    <Button
+        android:id="@+id/galerybuttonKt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/tittlegalery"
+        android:textAlignment="center"
+        android:textColor="@color/logoblack"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:theme="@style/buttonstyle1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayImageViewKt" />
+
+
+    <TextView
+        android:id="@+id/textDetect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+
+        android:textColor="@color/logoblack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDetect4"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <TextView
+        android:id="@+id/textDetect4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/KeteranganText"
+        android:textColor="@color/logoblack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detectColorButtonKt" />
+    <!--    <TextView-->
+    <!--        android:id="@+id/textDetect5"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/KeteranganTextWarna3"-->
+    <!--        android:textSize="15sp"-->
+    <!--        android:textColor="@color/logoblack"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textDetect4"-->
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/textDetect6"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/KeteranganTextWarna4"-->
+    <!--        android:textSize="15sp"-->
+    <!--        android:textColor="@color/logoblack"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textDetect5"-->
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/textDetect7"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/KeteranganTextWarna5"-->
+    <!--        android:textSize="15sp"-->
+    <!--        android:textColor="@color/logoblack"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textDetect6"-->
+    <!--        />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textDetect8"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:text="@string/faseWarna"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="@color/logoblack"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textDetect7"-->
+    <!--        />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:background="@null"-->
+    <!--        android:scaleType="fitCenter"-->
+    <!--        android:src="@drawable/tabelbwd"-->
+    <!--        android:text="@string/bio_bts"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textDetect8"-->
+    <!--        />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/textDetect9"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:text="@string/faseWarna2"-->
+    <!--        android:textSize="16sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="@color/logoblack"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/image1"-->
+    <!--        />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="150dp"-->
+    <!--        android:background="@null"-->
+    <!--        android:scaleType="fitCenter"-->
+    <!--        android:src="@drawable/bwd"-->
+    <!--        android:text="@string/bio_bts"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textDetect9"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

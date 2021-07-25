@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logogreen"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="fragments.PupukFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="16dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                android:id="@+id/txApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/album_bts"
+                    android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:textColor="@color/logoblack"
+                />
+                <TextView
+                    android:layout_below="@+id/txApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/album_bts3"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textColor="@color/logoblack"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/namealbum"
+                        android:textColor="@color/logoblack"
+                        android:fontFamily="casual"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/logo_camera"
+                        android:onClick="btnToast"
+                        android:text="@string/bio_bts"
+                        android:textStyle="bold"
+                        tools:ignore="OnClick" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="@string/namealbum2"
+                        android:textColor="@color/logoblack"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:onClick="btnToast2"
+                        android:src="@drawable/logo_bentuk"
+                        android:text="@string/bio_bts"
+                        android:textStyle="bold"
+                        tools:ignore="OnClick" />
+                    />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

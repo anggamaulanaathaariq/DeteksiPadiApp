@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">KawanTani Mobile</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="dialogs">Dialogs</string>
+    --Buy album--
+    <string name="linktosite">
+    <a href="http://papuabarat.litbang.pertanian.go.id/index.php/berita">http://papuabarat.litbang.pertanian.go.id/index.php/berita \n\n\n</a> </string>
+    <string name="linktosite2">
+    <a href="http://papuabarat.litbang.pertanian.go.id/index.php/berita?start=5">http://papuabarat.litbang.pertanian.go.id/index.php/berita?start=5</a> </string>
+    <string name="linktosite3">
+    <a href="https://www.amazon.com/Youth-BTS/dp/B01NBPB5HM">https://www.amazon.com/Youth-BTS/dp/B01NBPB5HM</a> </string>
+    <string name="linktosite4">
+    <a href="https://www.amazon.com/Love-Yourself-Tear-BTS/dp/B07BZBBVLF">https://www.amazon.com/Love-Yourself-Tear-BTS/dp/B07BZBBVLF</a> </string>
+    <string name="linktosite5">
+    <a href="https://www.amazon.com/LOVE-YOURSELF-Her-BTS/dp/B075KZGM8C">https://www.amazon.com/LOVE-YOURSELF-Her-BTS/dp/B075KZGM8C</a> </string>
+    <string name="linktosite6">
+    <a href="https://www.amazon.com/Map-Soul-PERSONA-BTS/dp/B07PB2W4ND">https://www.amazon.com/Map-Soul-PERSONA-BTS/dp/B07PB2W4ND</a> </string>
+    --judul--
+    <string name="tittletop">Ambil Gambar</string>
+    <string name="tittletop2">Ambil Gambar</string>
+    <string name="tittlegalery">Galeri</string>
+    <string name="tittlegalery2">Galeri</string>
+    <string name="tittlegalery3">Klasifikasi Gambar HSV</string>
+    <string name="tittlegalery4">Klasifikasi Gambar Thresholding</string>
+    <string name="tittlegalery5">Deteksi HSV</string>
+    <string name="tittlegalery6">Deteksi Thresholding</string>
+
+    --tittle--
+    --Fragments Album--
+    <string name="album_bts">Citra Detection</string>
+    <string name="album_bts2">Klik pada gambar untuk mendeteksi yang diinginkan:</string>
+    <string name="album_bts3">Proses Mendeteksi Warna Dan Bentuk Tanaman Padi Untuk Penentuan Pupuk, Klik pada gambar untuk mendeteksi yang diinginkan:</string>
+    <string name="musik_bts">KATAM TERPADU TINGKAT KAB. MANOKWARI, PROV. PAPUA BARAT MH 2020/2021</string>
+
+    --AlbumName--
+    <string name="namealbum">Warna Tanaman</string>
+    <string name="namealbum2">Bentuk Tanaman </string>
+
+    <string name="faseBentuk">Tahapan Fase Bentuk</string>
+    <string name="faseWarna">Tabel Pupuk</string>
+    <string name="faseWarna2">Bagan Warna Daun</string>
+    <string name="faseWarna3">Bagan Warna Daun (HSV)</string>
+    <string name="faseWarna4">Rincian :</string>
+    --AlbumText--
+    <string name="katamtext">\nREKAPITULASI TK. KAB. MANOKWARI, PROV. PAPUA BARAT KOM. PADI SAWAH MH 2020/2021 \nLuas Baku : 3.568 ha \nPotensi Luas Tanam :  \n- Padi Sawah : 3.031 ha \n- Jagung/ Kedelai : - ha  \n- Kedelai : 0 ha</string>
+    --Fragments Bio--
+    <string name="bio_bts">Kementrian Pertanian</string>
+    <string name="bio_bts3">Antusiasme Petani Lokal Ikuti Bimtek Padat Karya</string>
+    <string name="bio_bts4">Paket Teknologi Padi Sawah di Provinsi Papua Barat</string>
+
+    <string name="title_edittext_preference">Contact Me</string>
+    <string name="dialog_title_edittext_preference">EditText Preference</string>
+    <string name="title_list_preference">List Preference</string>
+    <string name="dialog_title_list_preference">List Preference</string>
+    <string name="title_multi_list_preference">Multi List Preference</string>
+    <string name="summary_multi_list_preference">Summary of multi  list preference</string>
+    <string name="dialog_title_multi_list_preference">Multi List Preference</string>
+    <string name="title_dropdown_preference">Dropdown Preference</string>
+    <string name="title_seekbar_preference">Seekbar Preference</string>
+    //KeteranganBentuk
+    <string name="KeteranganText">Keterangan :</string>
+    <string name="KeteranganText2">1. Pada pertanaman padi terdapat tiga fase pertumbuhan, yaitu fase vegetatif (0-60 hari), fase generatif (60-90 hari), dan fase pemasakan (90-120 hari).\n</string>
+
+    //KeteranganWarna
+    <string name="KeteranganTextWarna">Keterangan :</string>
+
+    <string name="KeteranganTextWarna3">1. Bila nilai BWD rata-rata 3.0 atau kurang, berikan 75 kg Urea/ha
+pada hasil harapan sebesar 5 t/ha. Tambahkan lagi 25 kg Urea/ha
+untuk setiap satu t/ha lebih tingginya hasil harapan.\n</string>
+    <string name="KeteranganTextWarna4">2. Bila rata-rata nilai BWD antara 3,5 dan 4,0; berikan 50 kg Urea/ha
+pada hasil harapan sebesar 5 t/ha. Tambahkan lagi 25 kg Urea/ha
+untuk setiap ton/ha lebih tingginya hasil harapan.\n</string>
+    <string name="KeteranganTextWarna5">3. Bila rata-rata nilai BWD antara 4,0 dan 4,5; tak perlu memberikan
+pupuk N bila hasil harapan hanya 5-6 t/ha. Tambahkan 50 kg
+Urea/ha bila hasil harapan lebih dari 6 t/ha.\n</string>
+
+    <string name="slide_1_title">Halo Sobat Tani</string>
+    <string name="slide_1_desc">Selamat Datang Di Aplikasi Saya</string>
+
+    <string name="slide_2_title">Pertanian Modern</string>
+    <string name="slide_2_desc">Dengan Menggunakan Aplikasi ini Jadi Lebih Mudah Bagi Para Sobat Tani Untuk Mengetahui Pertumbuhan Pada Padi</string>
+
+    <string name="slide_3_title">Deteksi Fase Pertumbuhan</string>
+    <string name="slide_3_desc">Cara Kerja Aplikasi Ini Dengan Memotret Padi Akan Mendapatkan Hasil Data Dari Warna dan Bentuk Padi</string>
+
+    <string name="slide_4_title">Penentuan Pupuk</string>
+    <string name="slide_4_desc">Sehingga Dapat Mengetahui Pemberian Pupuk Pada Tanaman Padi</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="polinema_mobile">POLINEMA MOBILE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+</resources>

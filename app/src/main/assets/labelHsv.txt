@@ -1,0 +1,3 @@
+TingkatHasil2 = Membutuhkan Pupuk Urea 125 kg/ha
+TingkatHasil3 = Membutuhkan Pupuk Urea 100 kg/ha
+TingkatHasil4 = Membutuhkan Pupuk Urea 50 kg/ha

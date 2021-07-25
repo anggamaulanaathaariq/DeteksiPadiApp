@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.polinema.appmusic">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_awal"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="id.ac.polinema.deteksipadiapp.kotlin.ClassificationThresholding"></activity>
+        <activity android:name="id.ac.polinema.deteksipadiapp.kotlin.ClassificationHSV"></activity>
+        <activity android:name="id.ac.polinema.deteksipadiapp.testing.CameraActivity" />
+        <activity android:name="id.ac.polinema.deteksipadiapp.testing.ColorDetection" />
+        <activity android:name="id.ac.polinema.deteksipadiapp.testing.Thresholding" />
+        <activity android:name="id.ac.polinema.deteksipadiapp.testing.TestingBentuk" />
+        <activity android:name="id.ac.polinema.deteksipadiapp.testing.TestingWarna" />
+        <activity android:name="id.ac.polinema.deteksipadiapp.WelcomeActivity" />
+        <activity android:name="id.ac.polinema.deteksipadiapp.MainActivity" />
+        <activity android:name="id.ac.polinema.deteksipadiapp.ActivitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="label" />
+    </application>
+
+</manifest>

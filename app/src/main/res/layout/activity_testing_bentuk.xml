@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logogreen"
+    tools:context="id.ac.polinema.deteksipadiapp.testing.TestingBentuk">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="16dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:orientation="vertical"
+                        >
+
+                        <Button
+                            android:id="@+id/camera_button2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tittletop2"
+                            android:textSize="16sp"
+                            android:theme="@style/buttonstyle1"
+                            android:textAlignment="center"
+                            android:textColor="@color/logoblack"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:id="@+id/kotlin_btn2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/tittlegalery4"
+                            android:theme="@style/buttonstyle1"
+                            android:textSize="16sp"
+                            android:textAlignment="center"
+                            android:textColor="@color/logoblack"
+                            android:textStyle="bold"/>
+
+                        <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:orientation="vertical"
+                    >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/KeteranganText"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/logoblack"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/KeteranganText2"
+                                android:textSize="15sp"
+                                android:textColor="@color/logoblack"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:text="@string/faseBentuk"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/logoblack"
+                                />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:background="@null"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/fasebentuk"
+                                android:text="@string/bio_bts"
+                                android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

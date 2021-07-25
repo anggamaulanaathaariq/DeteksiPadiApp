@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DeteksiPadiApp.iml" filepath="$PROJECT_DIR$/.idea/modules/DeteksiPadiApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/DeteksiPadiApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/DeteksiPadiApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary345/DeteksiPadiApp.openCVLibrary345.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary345/DeteksiPadiApp.openCVLibrary345.iml" />
+    </modules>
+  </component>
+</project>

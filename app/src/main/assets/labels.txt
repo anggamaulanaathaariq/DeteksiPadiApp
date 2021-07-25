@@ -1,0 +1,2 @@
+FaseVegetatif = Usia 55 Hari
+FaseGeneratif = Usia 60-65 Hari

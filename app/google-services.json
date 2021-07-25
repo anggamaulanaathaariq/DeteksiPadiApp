@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "574053066688",
+    "project_id": "classification-image-app",
+    "storage_bucket": "classification-image-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574053066688:android:0371e4aeb8c7a83a414a25",
+        "android_client_info": {
+          "package_name": "id.ac.polinema.appmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574053066688-mppa5bvci7juo2v370vnnud3vq1gdohk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkmGBmllxSJPy6AQWK-tXojaLF1D3VTKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574053066688-mppa5bvci7juo2v370vnnud3vq1gdohk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574053066688:android:12086ca052d7857f414a25",
+        "android_client_info": {
+          "package_name": "id.ac.polinema.deteksipadiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574053066688-mppa5bvci7juo2v370vnnud3vq1gdohk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkmGBmllxSJPy6AQWK-tXojaLF1D3VTKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574053066688-mppa5bvci7juo2v370vnnud3vq1gdohk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

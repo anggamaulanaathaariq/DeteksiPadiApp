@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="islands">
+        <item>Indonesia</item>
+        <item>USA</item>
+        <item>Korea</item>
+        <item>Jepang</item>
+        <item>China</item>
+    </string-array>
+</resources>

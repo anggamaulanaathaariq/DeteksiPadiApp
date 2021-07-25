@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/logogreen"
+    tools:context="fragments.BioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="16dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bio_bts"
+                    android:textSize="16sp"
+                    android:textColor="@color/logogreen"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:orientation="vertical"
+                    >
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/home_padi"
+                        android:text="@string/bio_bts"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bio_bts3"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="220dp"
+                            android:background="@null"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/berita_bptp"
+                            android:text="@string/bio_bts"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:autoLink="all"
+                            android:text="@string/linktosite"
+                            android:textSize="15sp"
+                            android:textStyle="normal"
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/bio_bts3"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                        <ImageButton
+                            android:layout_width="match_parent"
+                            android:layout_height="220dp"
+                            android:background="@null"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/berita_bptp2"
+                            android:text="@string/bio_bts"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:autoLink="all"
+                            android:text="@string/linktosite2"
+                            android:textSize="15sp"
+                            android:textStyle="normal"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
